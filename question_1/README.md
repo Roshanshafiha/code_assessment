@@ -16,8 +16,6 @@ fi
 Python:
 
 import logging
-
-# Configure logging
 logging.basicConfig(filename='error.log', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def divide_numbers(a, b):
@@ -31,7 +29,7 @@ def divide_numbers(a, b):
         logging.error("An unexpected error occurred", exc_info=True)
         return None
 
-# Example usage
+'''Example usage'''
 result1 = divide_numbers(10, 2)   # No error
 result2 = divide_numbers(10, 0)   # Will log a ZeroDivisionError
 result3 = divide_numbers('10', 2) # Will log a TypeError
