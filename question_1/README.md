@@ -3,7 +3,7 @@
 Q1.1.ipynb jupyter notebook contains the answer for question 1.1
 
 q1.2_slurm folder has bash scripts for the question 1.2.
-The submit_job.sh is the main script that runs tash_a.sh and task_b.sh. This script has 
+The submit_job.sh is the main script that runs tash_a.sh and task_b.sh. This script has a for loop that monitors the script until its done.
 
 Question 1.3 answer :
 
